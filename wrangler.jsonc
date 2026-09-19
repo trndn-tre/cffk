@@ -18,13 +18,17 @@
   ],
   "compatibility_flags": [
     "nodejs_compat",
-     "global_fetch_strictly_public"
+    "global_fetch_strictly_public"
   ],
   "triggers": {
     "crons": ["* * * * *"]
   },
   "observability": {
-		"enabled": true,
-		"head_sampling_rate": 0.1
-	},
+    "enabled": true,
+    "head_sampling_rate": 0.1
+  },
+  "vars": {
+    "ADMIN_PATH": "admin-9527",
+    "BETTER_AUTH_URL": "https://cffk.a3129877588.workers.dev"
+  }
 }
