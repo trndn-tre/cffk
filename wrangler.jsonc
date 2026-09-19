@@ -3,12 +3,13 @@
   "name": "cffk",
   "compatibility_date": "2026-03-12",
   "main": "vike:server-entry",
+  // "send_email": [ { "name": "EMAIL" } ], // <-- 已注释，如果你确实需要邮件功能，请参考第4点
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "cffk_db",
-      "migrations_dir": "database/migrations",
-      // "database_id": "6ccaa772-9379-494a-8548-7a1bb74e30da" // 一键部署必须注释/
+      // "database_id": "6ccaa772-9379-494a-8548-7a1bb74e30da", // <-- 请取消注释，并填入你实际的数据库ID
+      "migrations_dir": "database/migrations"
     }
   ],
   "compatibility_flags": [
