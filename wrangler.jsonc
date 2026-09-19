@@ -8,7 +8,7 @@
     {
       "binding": "DB",
       "database_name": "cffk_db",
-      // "database_id": "6ccaa772-9379-494a-8548-7a1bb74e30da", // <-- 请取消注释，并填入你实际的数据库ID
+      "database_id": "414126b3-f47e-4b7f-a649-efbb62394b53",
       "migrations_dir": "database/migrations"
     }
   ],
@@ -21,7 +21,7 @@
   },
   "observability": {
     "enabled": true,
-    "head_sampling_rate": 0.1
+    "head_sampling_rate": 1.0
   },
   "vars": {
     "ADMIN_PATH": "admin-9527",
