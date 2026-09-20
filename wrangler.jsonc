@@ -6,8 +6,8 @@
   // "send_email": [ { "name": "EMAIL" } ],
   "d1_databases": [
     {
-      "binding": "db",
-      "database_name": "cffk-db",
+      "binding": "DB",
+      "database_name": "CFFK-DB",
       "database_id": "41c19eac-b68c-4031-92e3-a8f49251eb12",
       "migrations_dir": "database/migrations"
     }
