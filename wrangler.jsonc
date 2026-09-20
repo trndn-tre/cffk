@@ -7,7 +7,7 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "CFFK-DB",
+      "database_name": "cffk-db",
       "database_id": "41c19eac-b68c-4031-92e3-a8f49251eb12",
       "migrations_dir": "database/migrations"
     }
