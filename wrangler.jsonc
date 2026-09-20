@@ -3,12 +3,12 @@
   "name": "cffk",
   "compatibility_date": "2026-03-12",
   "main": "vike:server-entry",
-  // "send_email": [ { "name": "EMAIL" } ], // <-- 已注释，如果你确实需要邮件功能，请参考第4点
+  // "send_email": [ { "name": "EMAIL" } ],
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "cffk_db",
-      "database_id": "414126b3-f47e-4b7f-a649-efbb62394b53",
+      "database_name": "CFFK-DB",
+      "database_id": "41c19eac-b68c-4031-92e3-a8f49251eb12",
       "migrations_dir": "database/migrations"
     }
   ],
@@ -28,4 +28,3 @@
     "BETTER_AUTH_URL": "https://cffk.a3129877588.workers.dev"
   }
 }
-
